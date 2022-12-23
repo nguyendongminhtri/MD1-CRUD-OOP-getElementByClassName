@@ -102,15 +102,18 @@
 <div class="container">
     <div class="row">
         <div class="rounded col-12" style="background-color: #d1b0f6; text-align: center; margin: 20px 20px 20px 20px">
-            <div class="input-group mb-3">
-                <input id="name" type="text" class="form-control" placeholder="Name ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <span class="input-group-text" >Name</span>
+            <div class="btn-change">
+                <div class="input-group mb-3">
+                    <input id="name" type="text" class="form-control" placeholder="Name ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text" >Name</span>
+                </div>
+                <div class="input-group mb-3">
+                    <input id="age" type="number" class="form-control" placeholder="Age ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text" >Age</span>
+                </div>
+                <button class="btn btn-success" onclick="createStudent()">Create Student <i style="color: red" class="bi bi-node-plus"></i></button>
             </div>
-            <div class="input-group mb-3">
-                <input id="age" type="number" class="form-control" placeholder="Age ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <span class="input-group-text" >Age</span>
-            </div>
-            <button class="btn btn-success" onclick="createStudent()">Create Student <i style="color: red" class="bi bi-node-plus"></i></button>
+
             <table class="table">
                 <tr class="table-primary">
                     <th>STT</th>
